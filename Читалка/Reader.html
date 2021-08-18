@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Читалка</title>
+    <link rel="stylesheet" href="Reader.css">
+</head>
+<body>
+    <div id="container">
+<div id="first">
+    <label for="input" class="button">КНИГА<input id="input" type="file" onchange="readFile(this)"></label>
+</div>
+<div id="second" onclick=""><p>НАЗАД</p>
+    <!--<label class="button" onclick=""><Назад</label>-->
+</div>
+<div id="third" onclick="pageLoader()" ><p>ВПЕРЕД</p>
+        <!--<label class="button" onclick="">Вперед></label>-->
+</div>
+<div id="fourth" onclick="changeTextSize()"><p>РАЗМЕР</p>
+        <!--<label class="button" onclick="changeTextSize()">Поменять размер шрифта</label>-->
+</div>
+<div id="fifth" onclick="changeBColor()"><p>ФОН</p>
+        <!--<label class="button" onclick="changeBColor()">Поменять фон текста</label>-->
+</div>
+<div id="sixth" onclick="changeTextColor()"><p>ЦВЕТ</p>
+        <!--<label class="button" onclick="changeTextColor()">Поменять цвет текста</label>-->
+</div>
+<div id="seventh" onclick="changeTextFont()"><p>ШРИФТ</p>
+        <!--<label class="button" onclick="changeTextFont()">Поменять вид шрифта</label>-->
+</div>
+<div id="eighth" onclick="changeSkin()"><p>ОБОЛОЧКА</p>
+        <!--<label class="button" onclick="changeSkin()">Поменять скин</label>-->
+</div>
+<div id="main">            
+</div>
+    </div>
+    <script src="Reader.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+#originalText{
+    display: none; 
+}
+
+#paginatedText{
+    width: 300px;
+    height: 400px;
+    background: #aaa;
+}
+.page{
+    padding: 0;
+    width: 298;
+    height: 398px;
+    border: 1px solid #888;
+}
